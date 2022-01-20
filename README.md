@@ -1,4 +1,7 @@
 # Project2-vanquish-bigHero6-
+
+The business chosen was a Book Publisher
+
 Project 2
 Creating an LWC/Aura Experience Cloud site & imperative business solutions.
 
