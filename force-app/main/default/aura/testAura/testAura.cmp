@@ -1,5 +1,0 @@
-<aura:component implements="forceCommunity:availableForAllPageTypes" access="global">
-	<h1>
-       this is a test aura component.
-    </h1>
-</aura:component>
