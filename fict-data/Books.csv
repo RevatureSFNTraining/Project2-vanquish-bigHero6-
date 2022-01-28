@@ -1,4 +1,4 @@
-FISBN,Title,Author,Co-authors,Year,Fiction Flag,Genre,Subgenre,Paperback Flag,Price
+ISBN-16,Title,Author,Co-authors,Year,Fiction Flag,Genre,Subgenre,Paperback Flag,Price
 978-555-0-32177-000-9,The Big Goodbye,Tracy Tormé,_COAUTHORS_,2019,Fiction,Mystery,Detective,Paperback,$18.99
 978-555-0-32177-001-6,The Hound of the Baskervilles,Sir Arthur Conan Doyle,_COAUTHORS_,2019,Fiction,Mystery,Detective,Paperback,$18.99
 978-555-0-32177-002-3,Chess Middlegame Tactics,Akeelah Anderson,_COAUTHORS_,2019,Nonfiction,Games,Chess,Paperback,$18.99
@@ -14,7 +14,7 @@ FISBN,Title,Author,Co-authors,Year,Fiction Flag,Genre,Subgenre,Paperback Flag,Pr
 978-555-0-32177-012-2,_TITLE_,_AUTHOR_,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-013-9,_TITLE_,_AUTHOR_,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-014-6,_TITLE_,_AUTHOR_,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-015-3,_TITLE_,_AUTHOR_,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-015-3,From Torts to Tarts,Stephen Breyer,_COAUTHORS_,2019,Nonfiction,Cookbook,Desserts,Paperback,$18.99
 978-555-0-32177-016-0,Get Satbir on the Horn,Harbir Singh,_COAUTHORS_,2019,Fiction,Thriller,Spy,Paperback,$18.99
 978-555-0-32177-017-7,Sonnets,William Shakespeare,_COAUTHORS_,2019,Fiction,Poetry,_SUBGENRE_,Paperback,$8.99
 978-555-0-32177-018-4,Quick Notes: The Shakespeare Sonnets,Songlian Wu,_COAUTHORS_,2019,Nonfiction,Literature,Literary analysis,Paperback,$18.99
@@ -264,7 +264,7 @@ FISBN,Title,Author,Co-authors,Year,Fiction Flag,Genre,Subgenre,Paperback Flag,Pr
 978-555-0-32177-262-1,A Matter of Time: The Java Time Package,Alonso del Arte,_COAUTHORS_,2019,Nonfiction,Computer Programming,Java,Paperback,$38.99
 978-555-0-32177-263-8,Overseas Deployment Ribbon: Call of Duty,Alma Czerna,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-264-5,Last Minute Touchdown,Billiam Postopoli,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-265-2,_TITLE_,Chandler Ross,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-265-2,Guns and Knives,Chandler Ross,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-266-9,The Sprig of Chicago,Diana McWoolgoolgy,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-267-6,_TITLE_,Emilio Spears,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-268-3,Star Trek: Second Contact,Jesús María Peña,_COAUTHORS_,2019,Fiction,Science fiction,Star Trek,Paperback,$18.99
@@ -274,210 +274,210 @@ FISBN,Title,Author,Co-authors,Year,Fiction Flag,Genre,Subgenre,Paperback Flag,Pr
 978-555-0-32177-272-0,Travel Diary: Romania,Wolfdieter Braunschweig,_COAUTHORS_,2019,Nonfiction,Travel,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-273-7,Two If By Sea,Viviana Soon,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-274-4,Break a Leg,Fauna Laquandisha Jones,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-275-1,_TITLE_,Golda Racorzkrzsza,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-275-1,Vanished,Golda Racorzkrzsza,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-276-8,Star Trek: The Lieutenants of Command,Jesús María Peña,_COAUTHORS_,2019,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-277-5,_TITLE_,Hillary Yee,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-278-2,_TITLE_,Illiana Ghemor,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-277-5,Against All Enemies,Hillary Yee,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-278-2,Impact,Illiana Ghemor,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-279-9,Travel Diary: Greece,Wolfdieter Braunschweig,_COAUTHORS_,2019,Nonfiction,Travel,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-280-5,_TITLE_,Joanne Keller,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-281-2,_TITLE_,Kiv Du Yee,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-282-9,_TITLE_,Lovepreet Kaur,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-280-5,Defenseless,Joanne Keller,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-281-2,Someone to Watch Over Lee Anne,Kiv Du Yee,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-282-9,Father's Day,Lovepreet Kaur,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-283-6,Quick Notes: Ursula K. LeGuin,Songlian Wu,_COAUTHORS_,2019,Nonfiction,Literature,Literary analysis,Paperback,$18.99
-978-555-0-32177-284-3,_TITLE_,Marlbir Singh,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-285-0,_TITLE_,Osiris Washington,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-284-3,Above and Beyond,Marlbir Singh,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-285-0,Chains of Command,Osiris Washington,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-286-7,Travel Diary: Puerto Rico,Wolfdieter Braunschweig,_COAUTHORS_,2019,Nonfiction,Travel,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-287-4,_TITLE_,Paul Varjoon,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-287-4,The Stalker,Paul Varjoon,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-288-1,"Star Trek: Another Day, Another Cardassian Lek",Jesús María Peña,_COAUTHORS_,2019,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-289-8,_TITLE_,Quentisetta Rollins,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-289-8,Tigers on the Loose,Quentisetta Rollins,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-290-4,Between Two Worlds,Stacey Qadar,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-291-1,CIA: Tender Mercies,Tom Bull,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-292-8,_TITLE_,Umbert Strom,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-292-8,Death Watch,Umbert Strom,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-293-5,Quick Notes: English Translations of Greek Classics,Songlian Wu,_COAUTHORS_,2019,Nonfiction,Literature,Literary analysis,Paperback,$18.99
-978-555-0-32177-294-2,_TITLE_,Vana Too,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-295-9,_TITLE_,Wanda Shjro,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-296-6,_TITLE_,Xanthos Phillips,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-297-3,_TITLE_,Yara McSam,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-298-0,_TITLE_,Zelda Washington,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-294-2,Impostor,Vana Too,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-295-9,Jimmy's Returns,Wanda Shjro,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-296-6,Clipped Wings,Xanthos Phillips,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-297-3,Wedding Bell Blues,Yara McSam,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-298-0,Born in the USSR,Zelda Washington,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-299-7,Travel Diary: Pakistan,Wolfdieter Braunschweig,_COAUTHORS_,2019,Nonfiction,Travel,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-300-0,_TITLE_,Alma Soughgren,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-301-7,_TITLE_,Brenda Michael Wooster,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-302-4,_TITLE_,Cipriano Dillings,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-303-1,_TITLE_,Daria Wallace,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-300-0,To Russia with Love,Alma Soughgren,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-301-7,Gypsy Eyes,Brenda Michael Wooster,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-302-4,Murder at the Embassy,Cipriano Dillings,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-303-1,Innocence,Daria Wallace,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-304-8,Star Trek: Julian Bashir: Silverfinger,Jesús María Peña,_COAUTHORS_,2019,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-305-5,_TITLE_,Earla O'Donnell,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-306-2,_TITLE_,Finn Freeman,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-305-5,No Martin Baker,Earla O'Donnell,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-306-2,Act of Terror,Finn Freeman,_COAUTHORS_,2019,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-307-9,Travel Diary: Thailand,Wolfdieter Braunschweig,_COAUTHORS_,2019,Nonfiction,Travel,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-308-6,_TITLE_,Grace Chen,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-309-3,_TITLE_,Henry Okungbanwe,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-308-6,Angels' Thirty,Grace Chen,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-309-3,The Black Jet,Henry Okungbanwe,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-310-9,Star Trek: Julian Bashir: Thunder Square,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-311-6,_TITLE_,Ilona Zdrowa,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-312-3,_TITLE_,Jill MacWoolgoolga,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-313-0,_TITLE_,Kira Jones,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-314-7,_TITLE_,Laana Suomi,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-311-6,War Stories,Ilona Zdrowa,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-312-3,Web of Lies,Jill MacWoolgoolga,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-313-0,Where the Rivers Run,Kira Jones,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-314-7,"Run Silent, Run Deep",Laana Suomi,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-315-4,Travel Diary: Singapore,Wolfdieter Braunschweig,_COAUTHORS_,2019,Nonfiction,Travel,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-316-1,_TITLE_,Mara O'Leary,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-316-1,Mob Justice,Mara O'Leary,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-317-8,Quick Notes: Ernest Hemingway,Songlian Wu,_COAUTHORS_,2020,Nonfiction,Literature,Literary analysis,Paperback,$18.99
-978-555-0-32177-318-5,_TITLE_,Nina Owolofoyeku,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-319-2,_TITLE_,Olga Stonestreet,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-320-8,_TITLE_,Pia Longfellow,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-321-5,_TITLE_,Quigley Mercator,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-322-2,_TITLE_,Robbie Plank,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-323-9,_TITLE_,Sharon Moreland,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-318-5,Jingle Bells,Nina Owolofoyeku,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-319-2,The Orphan,Olga Stonestreet,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-320-8,Check Ride,Pia Longfellow,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-321-5,Shakedown Cruise,Quigley Mercator,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-322-2,The Adversaries,Robbie Plank,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-323-9,Second Sight,Sharon Moreland,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-324-6,Star Trek: Julian Bashir: At Her Majesty's Pleasure,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-325-3,_TITLE_,Trudy Zhang,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-326-0,_TITLE_,Ursa Cellentani,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-327-7,_TITLE_,Viola Reese Davies,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-328-4,_TITLE_,Winter Johnson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-329-1,_TITLE_,Xavier Samuelson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-330-7,_TITLE_,Yolanda Nightwinder,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-331-4,_TITLE_,Zora McQuowm,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-332-1,_TITLE_,Zora McQuowm,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-325-3,Wilderness of Mirrors,Trudy Zhang,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-326-0,Soul Searching,Ursa Cellentani,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-327-7,"Oh Yeah, Baby",Viola Reese Davies,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-328-4,Goodbyes,Winter Johnson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-329-1,King of the Hill,Xavier Samuelson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-330-7,Rules of Engagement,Yolanda Nightwinder,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-331-4,True Calling,Zora McQuowm,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-332-1,Front and Center,Zora McQuowm,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-333-8,Quick Notes: Shakespeare's Historical Plays,Songlian Wu,_COAUTHORS_,2020,Nonfiction,Literature,Literary analysis,Paperback,$18.99
-978-555-0-32177-334-5,_TITLE_,Alma Robinson Gomez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-335-2,_TITLE_,Bertram Stamps,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-336-9,_TITLE_,Clara Maria Hernandez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-337-6,_TITLE_,Dorabella Morgan,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-338-3,_TITLE_,Elizabeth Mary Corning,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-339-0,_TITLE_,Franco Parlangeli,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-340-6,_TITLE_,Gloria Robinson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-334-5,Keyboard Warriors,Alma Robinson Gomez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-335-2,Going Rogue,Bertram Stamps,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-336-9,The Colonel's Husband,Clara Maria Hernandez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-337-6,Contemptuous Words,Dorabella Morgan,_COAUTHORS_,2020,Fiction,Thriller,Military,Paperback,$18.99
+978-555-0-32177-338-3,Mishap,Elizabeth Mary Corning,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-339-0,Ghosts of Christmas Present,Franco Parlangeli,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-340-6,Once More Unto the Breech,Gloria Robinson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-341-3,Star Trek: Return of the Shapeshifters,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-342-0,_TITLE_,Hanna Kingfisher Jones,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-343-7,_TITLE_,Ilana Plana,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-344-4,_TITLE_,Jupiter Jones,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-345-1,_TITLE_,Kemi Obunde,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-346-8,_TITLE_,Larry Eagleby,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-347-5,_TITLE_,Mary Elizabeth Sims,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-348-2,_TITLE_,Norah Pass Jackson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-349-9,_TITLE_,Olivia Bruner Stern,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-342-0,Life or Death,Hanna Kingfisher Jones,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-343-7,Cabin Pressure,Ilana Plana,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-344-4,Boomerang,Jupiter Jones,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-345-1,The Bridges of Monroe County,Kemi Obunde,_COAUTHORS_,2020,Fiction,Romance,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-346-8,Half Empty Promises,Larry Eagleby,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-347-5,Drop Zone,Mary Elizabeth Sims,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-348-2,Overdue and Presumed Lost,Norah Pass Jackson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-349-9,Surface Warfare,Olivia Bruner Stern,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-350-5,Star Trek: Obsidian Order: Checking In,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-351-2,_TITLE_,Paloma Jackson Gomez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-352-9,_TITLE_,Queridita Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-353-6,_TITLE_,Roman Oliver,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-354-3,_TITLE_,Samuel Potts Berkley,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-355-0,_TITLE_,Tony Blacksmith,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-351-2,Legacy,Paloma Jackson Gomez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-352-9,Florida Straits,Queridita Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-353-6,Flight Risk,Roman Oliver,_COAUTHORS_,2020,Fiction,Thriller,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-354-3,The Queen and the Pawn,Samuel Potts Berkley,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-355-0,A Separate Peace,Tony Blacksmith,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-356-7,One Night in Paris,Uwe Moravec,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-357-4,Chopper's on the Way,Vina Leonards,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-358-1,In No Man's Land,Wilma Porter,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-359-8,The Ancestors,Xenia Johnson Jackson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-360-4,Quick Notes: Macbeth,Songlian Wu,_COAUTHORS_,2020,Nonfiction,Literature,Literary analysis,Paperback,$18.99
-978-555-0-32177-361-1,_TITLE_,Yolanda Burridge Green,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-362-8,_TITLE_,Zlata Korona,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-363-5,_TITLE_,Pav Cnossen,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-364-2,_TITLE_,Maame Turner Robinson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-365-9,_TITLE_,Liying Wing,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-366-6,_TITLE_,Kofo Tumbe,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-367-3,_TITLE_,Uwe Moravec,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-361-1,Family Secrets,Yolanda Burridge Green,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-362-8,Touch and Go,Zlata Korona,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-363-5,Twenty Below Wind Chill,Pav Cnossen,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-364-2,Collision Course,Maame Turner Robinson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-365-9,Miracles,Liying Wing,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-366-6,Valor,Kofo Tumbe,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-367-3,Killer Instinct,Uwe Moravec,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-368-0,Star Trek: Gray Hat Hackers,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-369-7,_TITLE_,Bobby Hill,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-370-3,_TITLE_,Mark Petrel,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-371-0,_TITLE_,Luisa Juanita Gomez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-372-7,_TITLE_,Marge Simpson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-373-4,_TITLE_,Emily Everpuff,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-374-1,_TITLE_,Olivia Oliver,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-375-8,_TITLE_,Yesenia Young,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-369-7,Tex Mex on the Grill,Bobby Hill,_COAUTHORS_,2020,Nonfiction,Cookbook,Barbecue,Paperback,$18.99
+978-555-0-32177-370-3,Iron Coffin,Mark Petrel,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-371-0,"Retreat, Hell",Luisa Juanita Gomez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-372-7,Separated by an Ocean,Marge Simpson,_COAUTHORS_,2020,Fiction,Romance,Historical,Paperback,$18.99
+978-555-0-32177-373-4,Liberty,Emily Everpuff,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-374-1,Salvation,Olivia Oliver,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-375-8,To Walk on Wings,Yesenia Young,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-376-5,Quick Notes: Hamlet,Songlian Wu,_COAUTHORS_,2020,Nonfiction,Literature,Literary analysis,Paperback,$18.99
-978-555-0-32177-377-2,_TITLE_,Ionia Bloodworth,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-378-9,_TITLE_,Nona Shapovalova,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-379-6,_TITLE_,Sharona Fleming,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-380-2,_TITLE_,Amelia Teegerb,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-381-9,_TITLE_,Brenda Starr,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-382-6,_TITLE_,Carla Moulton,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-383-3,_TITLE_,Kevin Riverton,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-384-0,_TITLE_,Uniona Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-385-7,_TITLE_,Vernee Jefferson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-386-4,_TITLE_,Walter Miller,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-377-2,Past Tense,Ionia Bloodworth,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-378-9,Lifeline,Nona Shapovalova,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-379-6,Murder in the Fifth Degree,Sharona Fleming,_COAUTHORS_,2020,Fiction,Mystery,Detective,Paperback,$18.99
+978-555-0-32177-380-2,Mutiny,Amelia Teegerb,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-381-9,Mobsters in Gotham's Political Life,Brenda Starr,_COAUTHORS_,2020,Nonfiction,Politics,Investigative reporting,Paperback,$18.99
+978-555-0-32177-382-6,Adrift,Carla Moulton,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-383-3,Guns for Hire,Kevin Riverton,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-384-0,New Kid on the Block,Uniona Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-385-7,The Measure of a Man,Vernee Jefferson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-386-4,Guilt,Walter Miller,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-387-1,Star Trek: Starfleet Academy: Blue Squad,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-388-8,_TITLE_,Uniona Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-389-5,_TITLE_,Eugenio Sombras,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-390-1,_TITLE_,Paula Straiton,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-391-8,_TITLE_,Zima al Hambra,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-392-5,_TITLE_,Amelia Teegerb,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-393-2,_TITLE_,Kevin Riverton,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-394-9,_TITLE_,Uniona Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-388-8,Mixed Messages,Uniona Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-389-5,Redemption,Eugenio Sombras,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-390-1,Ambush,Paula Straiton,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-391-8,On the Way to the Marathon,Zima al Hambra,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-392-5,The Dog Robber,Amelia Teegerb,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-393-2,Answered Prayers,Kevin Riverton,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-394-9,Capital Crime,Uniona Washington,_COAUTHORS_,2020,Fiction,Mystery,Police procedural,Paperback,$18.99
 978-555-0-32177-395-6,Star Trek: Starfleet Academy: Portents of War,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-396-3,_TITLE_,Paula Straiton,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-397-0,_TITLE_,Zima al Hambra,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-398-7,_TITLE_,Julia Tao,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-396-3,Code of Conduct,Paula Straiton,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-397-0,The Mission,Zima al Hambra,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-398-7,Odd Woman Out,Julia Tao,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-399-4,Quick Notes: Animal Farm,Songlian Wu,_COAUTHORS_,2020,Nonfiction,Literature,Literary analysis,Paperback,$18.99
-978-555-0-32177-400-7,_TITLE_,Uwe Schmidt,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-401-4,_TITLE_,Bianka Wolpowna,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-402-1,_TITLE_,Waltera McThompsongilly,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-403-8,_TITLE_,Selma Severinsen,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-400-7,Head to Toe,Uwe Schmidt,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-401-4,Exculpatory Evidence,Bianka Wolpowna,_COAUTHORS_,2020,Fiction,Mystery,Detective,Paperback,$18.99
+978-555-0-32177-402-1,Hero Worship,Waltera McThompsongilly,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-403-8,First Casualty,Selma Severinsen,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-404-5,File Not Found: A Novel,Julietta Kolmogorovna,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-405-2,_TITLE_,Lovepreet Kaur,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-406-9,_TITLE_,Xanthos Phillips,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-407-6,_TITLE_,Henry Okungbanwe,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-408-3,_TITLE_,Robbie Plank,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-409-0,_TITLE_,Alma Robinson Gomez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-410-6,_TITLE_,Kemi Obunde,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-411-3,_TITLE_,Uwe Moravec,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-405-2,Luna Pier,Lovepreet Kaur,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-406-9,Port Chicago,Xanthos Phillips,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-407-6,Tribunal,Henry Okungbanwe,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-408-3,A Judge on Trial,Robbie Plank,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-409-0,In Country,Alma Robinson Gomez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-410-6,The Promised Land,Kemi Obunde,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-411-3,Enemy Below,Uwe Moravec,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-412-0,Lessons Learned from Playing Chess in Prison,Patrick Kloster,_COAUTHORS_,2020,Nonfiction,Games,Chess,Paperback,$18.99
 978-555-0-32177-413-7,Star Trek: In Khan's Shadow,William Gold,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-414-4,_TITLE_,Vina Leonards,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-414-4,Critical Condition,Vina Leonards,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-415-1,Nothing But Net,Alice Pieszecki,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-416-8,_TITLE_,Mohammad bin Kadar,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-417-5,_TITLE_,Quincy Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-418-2,_TITLE_,Clara Thomas,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-419-9,_TITLE_,Trudy Zhang,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-420-5,_TITLE_,Robert Robertson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-416-8,The Family Business,Mohammad bin Kadar,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-417-5,Playing a Dangerous Game,Quincy Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-418-2,Into Thin Air,Clara Thomas,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-419-9,Offensive Action,Trudy Zhang,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-420-5,Cultivating Weed with Hydroponics,Robert Robertson,_COAUTHORS_,2020,Nonfiction,Gardening,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-421-2,Star Trek: Climate Change and the Prime Directive,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-422-9,_TITLE_,Zainab Hsien,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-423-6,_TITLE_,Stacey Qadar,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-424-3,_TITLE_,Queridita Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-425-0,_TITLE_,Earla O'Donnell,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-426-7,_TITLE_,Ian McGillicuddygillyblarp,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-427-4,_TITLE_,Slasa Thompson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-422-9,On the Honor System,Zainab Hsien,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-423-6,Need to Know,Stacey Qadar,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-424-3,Ready Or Not,Queridita Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-425-0,When the Bough Breaks,Earla O'Donnell,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-426-7,The Killer,Ian McGillicuddygillyblarp,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-427-4,All Ye Faithful,Slasa Thompson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-428-1,Quick Notes: English Translations of Japanese Haiku,Songlian Wu,_COAUTHORS_,2020,Nonfiction,Literature,Literary analysis,Paperback,$18.99
-978-555-0-32177-429-8,_TITLE_,Uwe Schmidt,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-429-8,Complications,Uwe Schmidt,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-430-4,Ninth Inning Miracle,Alice Pieszecki,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-431-1,_TITLE_,Ursula St. Frank,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-432-8,_TITLE_,Hannah Housemont,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-433-5,_TITLE_,Charlesetta Romaine,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-434-2,_TITLE_,Nina Hao,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-431-1,Standards of Conduct,Ursula St. Frank,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-432-8,Each of Us Angels,Hannah Housemont,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-433-5,Friendly Fire,Charlesetta Romaine,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-434-2,Heart and Soul,Nina Hao,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-435-9,Star Trek: Plight of the Cogenitors,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-436-6,_TITLE_,Wanda Wrzszczek,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-437-3,_TITLE_,Raymonda Tovey-Johnson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-436-6,Empty Quiver,Wanda Wrzszczek,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-437-3,Fortunate Son,Raymonda Tovey-Johnson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-438-0,"Illustrated Kama Sutra, Pandemic Edition","Dr. Romancepreet Kaur, M.D.",_COAUTHORS_,2020,Nonfiction,Health,Sexuality,Paperback,$18.99
-978-555-0-32177-439-7,_TITLE_,Clotilda Florida,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-439-7,Second Acts,Clotilda Florida,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-440-3,Quick Notes: Arthur Miller,Songlian Wu,_COAUTHORS_,2020,Nonfiction,Literature,Literary analysis,Paperback,$18.99
-978-555-0-32177-441-0,_TITLE_,Olla Hammoud,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-442-7,_TITLE_,Vina Leonards,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-443-4,_TITLE_,Clara Maria Hernandez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-444-1,_TITLE_,James Albertson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-445-8,_TITLE_,Laana Suomi,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-446-5,_TITLE_,Susan Puffinsberger,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-447-2,_TITLE_,Flora Molinari,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-448-9,_TITLE_,Walking Bear,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-441-0,Ice Queen,Olla Hammoud,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-442-7,Meltdown,Vina Leonards,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-443-4,"Lawyers, Guns and Money",Clara Maria Hernandez,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-444-1,Pas de Deux,James Albertson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-445-8,A Tangled Web,Laana Suomi,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-446-5,Shifting Sands,Susan Puffinsberger,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-447-2,The One That Got Away,Flora Molinari,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-448-9,Touchdown,Walking Bear,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-449-6,Play All 48 Minutes,Alice Pieszecki,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-450-2,Star Trek: Lost in Translation,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-451-9,_TITLE_,Mohammad bin Kadar,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-452-6,_TITLE_,Marge Simpson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-453-3,_TITLE_,Francisca Fioretti,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-451-9,Back in the Saddle,Mohammad bin Kadar,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-452-6,Love Affair at Pearl Cove,Marge Simpson,_COAUTHORS_,2020,Fiction,Romance,Historical,Paperback,$18.99
+978-555-0-32177-453-3,Close Quarters,Francisca Fioretti,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-454-0,_TITLE_,Peter Parker,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-455-7,_TITLE_,Zainab Zamorra,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-456-4,_TITLE_,Jessica Ha,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-457-1,_TITLE_,Sharona Fleming,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-455-7,Posse Comitatus,Zainab Zamorra,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-456-4,The Boast,Jessica Ha,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-457-1,Murder in the Mile High Club,Sharona Fleming,_COAUTHORS_,2020,Fiction,Mystery,Detective,Paperback,$18.99
 978-555-0-32177-458-8,_TITLE_,Brenda Starr,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-459-5,_TITLE_,Lewis Monkson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-460-1,_TITLE_,Vernee Jefferson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-459-5,Pulse Rate,Lewis Monkson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-460-1,A Merry Little Christmas,Vernee Jefferson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-461-8,Quick Notes: Gilbert & Sullivan,Songlian Wu,_COAUTHORS_,2020,Nonfiction,Literature,Literary analysis,Paperback,$18.99
-978-555-0-32177-462-5,_TITLE_,Frank Port,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-463-2,_TITLE_,Quentis Vargas,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-464-9,_TITLE_,Aaron Dean Morgan,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-465-6,_TITLE_,Kirsten McGullenwallengullen,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-466-3,_TITLE_,Tiana Reyes-Blenderson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-467-0,_TITLE_,Clara Thomas,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-468-7,_TITLE_,Xavier Roman,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-469-4,_TITLE_,Tatiana Volkmann,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-470-0,_TITLE_,Marlbir Singh,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-471-7,_TITLE_,Yara McSam,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-472-4,_TITLE_,Ilona Zdrowa,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-473-1,_TITLE_,Sharon Moreland,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-474-8,_TITLE_,Bertram Stamps,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-462-5,Good Intentions,Frank Port,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-463-2,Crashed,Quentis Vargas,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-464-9,Persian Gulf,Aaron Dean Morgan,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-465-6,A Girl's Best Friend,Kirsten McGullenwallengullen,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-466-3,Take It Like a Man,Tiana Reyes-Blenderson,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-467-0,What If...,Clara Thomas,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-468-7,Hard Time,Xavier Roman,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-469-4,Fighting Words,Tatiana Volkmann,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-470-0,Coming Home,Marlbir Singh,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-471-7,Trojan Horse,Yara McSam,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-472-4,Hail and Farewell,Ilona Zdrowa,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-473-1,Corporate Raiders,Sharon Moreland,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-474-8,Retrial,Bertram Stamps,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-475-5,Star Trek: Section 31: False Flag,Jesús María Peña,_COAUTHORS_,2020,Fiction,Science fiction,Star Trek,Paperback,$18.99
-978-555-0-32177-476-2,_TITLE_,Larry Eagleby,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-477-9,_TITLE_,Vina Leonards,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
-978-555-0-32177-478-6,_TITLE_,James Woolbinder,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-476-2,A Whole New Ballgame,Larry Eagleby,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-477-9,This Just In,Vina Leonards,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
+978-555-0-32177-478-6,One Big Boat,James Woolbinder,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-479-3,_TITLE_,George McFly,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-480-9,_TITLE_,Quincy Washington,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99
 978-555-0-32177-481-6,_TITLE_,Gabriela Goodwin,_COAUTHORS_,2020,Fiction,_GENRE_,_SUBGENRE_,Paperback,$18.99

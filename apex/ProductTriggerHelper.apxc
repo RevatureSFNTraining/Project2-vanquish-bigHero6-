@@ -1,0 +1,11 @@
+public class ProductTriggerHelper {
+    
+    public static void ensureCheckDigitChecksOut(List<Product2> books) {
+        System.debug('This trigger helper procedure doesn\'t do anything yet');
+    }
+    
+    public static void cleanUpOrphanedReviews(List<Product2> books) {
+        System.debug('This trigger helper procedure doesn\'t do anything yet');
+    }
+
+}
