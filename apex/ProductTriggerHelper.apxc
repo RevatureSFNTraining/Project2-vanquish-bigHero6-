@@ -1,7 +1,13 @@
 public class ProductTriggerHelper {
     
     public static void ensureCheckDigitChecksOut(List<Product2> books) {
-        System.debug('This trigger helper procedure doesn\'t do anything yet');
+        for (Product2 book : books) {
+            try {
+                ISBN barcodeNum = new ISBN((long) book.ISBN__c);
+            } catch (DmlException dmle) {
+                book.addError(dmle.getMessage());
+            }
+        }
     }
     
     public static void cleanUpOrphanedReviews(List<Product2> books) {

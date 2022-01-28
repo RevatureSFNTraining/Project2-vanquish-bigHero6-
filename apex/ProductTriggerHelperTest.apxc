@@ -16,15 +16,33 @@ public class ProductTriggerHelperTest {
         System.assert(!result.isSuccess());
     }
     
-    // TODO: testEnsureCheckDigitChecksOut()
+    /**
+     * Test to make sure a valid ISBN with the correct check digit is accepted. 
+     * For example, the correct ISBN-13 for <i>Java in a Nutshell</i> is 
+     * 978-1-49203-725-5.
+     */
+    @isTest
+    public static void testEnsureCheckDigitChecksOut() {
+        Product2 book = new Product2(name = 'Java in a Nutshell', 
+                                     author__c = 'David Flannagan and Ben Evans', 
+                                     genre__c = 'Other', ISBN__c = 9781492037255L, 
+                                     year__c = Date.today());
+        Database.SaveResult result = Database.insert(book, false);
+        System.assert(result.isSuccess());
+    }
+    
     
     @isTest
     public static void testCleanUpOrphanedReviews() {
-        System.assert(false);
-        // TODO: Create Product2 instance
+        Product2 book = new Product2(name = 'Cloud Atlas', 
+                                     author__c = 'David Mitchell', 
+                                     genre__c = 'Other', ISBN__c = 9780375507250L, 
+                                     year__c = Date.today());
+        String reviewText = 'Meh.';
         // TODO: Create Review__c instance associated to Product2 instance
         // TODO: Delete Product2 instance
         // TODO: Ascertain Review__c instance has been deleted
+        System.assert(false);
     }
 
 }
