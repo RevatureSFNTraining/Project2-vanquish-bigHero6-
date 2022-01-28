@@ -1,14 +1,22 @@
 @isTest
 public class ProductTriggerHelperTest {
     
+    /**
+     * Test to make sure bad check digits for ISBN are rejected. For example, the
+     * correct ISBN-13 for <i>Java in a Nutshell</i> is 978-1-49203-725-5, so 
+     * 978-1-49203-725-6 should be rejected.
+     */
     @isTest
-    public static void testEnsureCheckDigitChecksOut() {
-        System.assert(false);
-        // TODO: Create Product2 instance with invalid ISBN due to bad check digit, e.g.,
-        // BAD ISBN-10:         1-59327-282-9 (check digit should be 0)
-        // BAD ISBN-13:     978-1-59327-282-0 (check digit should be 1)
-        // BAD ISBN-16: 978-555-1-59327-282-1 (check digit should be 6)
+    public static void testEnsureBadCheckDigitIsRejected() {
+        Product2 book = new Product2(name = 'Java in a Nutshell', 
+                                     author__c = 'David Flannagan and Ben Evans', 
+                                     genre__c = 'Other', ISBN__c = 9781492037256L, 
+                                     year__c = Date.today());
+        Database.SaveResult result = Database.insert(book, false);
+        System.assert(!result.isSuccess());
     }
+    
+    // TODO: testEnsureCheckDigitChecksOut()
     
     @isTest
     public static void testCleanUpOrphanedReviews() {
