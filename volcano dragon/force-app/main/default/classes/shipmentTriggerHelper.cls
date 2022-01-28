@@ -5,20 +5,25 @@ public static final Integer maxBooksPerShipment = 100;
 //method to find nearest printing press if not listed 
 //and then calculate the cost to ship 
 //from the press to the store
-public static void calculateShipping(Map<ID, Shipment__c> theMap) {
+public static void calculateShipping(List<Shipment__c> theList) {
     //List<ID> ids = new List<ID>(beforeMap.keySet());
     List<ID> storeIDs = new List<ID>();
+ //   Map<ID, Shipment__c> theMap = new Map<ID, Shipment__c>();
+
 
     //get the stores
-    for(Shipment__c ship : theMap.values()) {storeIDs.add(ship.Store__c);}
+    for(Shipment__c ship : theList) {
+        storeIDs.add(ship.Store__c);
+    }
+    
     Map<ID, Store__c> theStores = new Map<ID, Store__c>([SELECT Id, Location__c FROM Store__c WHERE Id in :storeIDs]);
     //do any of these orders need a printing press assigned?
-    Map<ID, Shipment__c> shipsThatNeedAPress = new Map<ID, Shipment__c>();
+    List<Shipment__c> shipsThatNeedAPress = new List<Shipment__c>();
     Boolean pullAllPresses = false;
-    for(ID i : theMap.keySet()) {
-        if(theMap.get(i).Printing_Press__c == null) {
+    for(Shipment__c s : theList) {
+        if(s.Printing_Press__c == null) {
             pullAllPresses = true;
-            shipsThatNeedAPress.put(i, theMap.get(i));
+            shipsThatNeedAPress.add(s);
         }
     }
     List<ID> thePressIDs;
@@ -28,7 +33,7 @@ public static void calculateShipping(Map<ID, Shipment__c> theMap) {
         thePresses = new Map<ID, Printing_Press__c>([SELECT Id, Location__c FROM Printing_Press__c]);
 
         //the magic of pass-by-reference at work
-        for(Shipment__c ship : shipsThatNeedAPress.values()) {
+        for(Shipment__c ship : shipsThatNeedAPress) {
             Location fromLoc;
             Location toLoc = theStores.get(ship.Store__c).Location__c;
             Decimal howFar = 25000;//approx circumference of the earth
@@ -46,13 +51,13 @@ public static void calculateShipping(Map<ID, Shipment__c> theMap) {
 
         //if not we can just calulate the shipping costs based on the information provided
     } else {
-        for(Shipment__c ship : theMap.values()) {
+        for(Shipment__c ship : theList) {
             thePressIDs.add(ship.Printing_Press__c);
         }
         thePresses = new Map<ID, Printing_Press__c>([SELECT Id, Location__c FROM Printing_Press__c WHERE Id IN :thePressIDs]);
     }
         //THE MAGIC!
-    for(Shipment__c ship : theMap.values()) {
+    for(Shipment__c ship : theList) {
         Location fromLoc = thePresses.get(ship.Printing_Press__c).Location__c;
         Location toLoc = theStores.get(ship.Store__c).Location__c;
         ship.Shipping_Cost__c = baseCostPerShipment + costToShipPerMile * Location.getDistance(fromLoc, toLoc, 'mi');
