@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#E71616</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>App for standard and custom objects</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>Volcano Dragon Publisher</label>
+    <navType>Standard</navType>
+    <tabs>standard-AppLauncher</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>Book_Project__c</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>Contract__c</tabs>
+    <tabs>Inventory__c</tabs>
+    <tabs>Inventory_Line__c</tabs>
+    <tabs>standard-Order</tabs>
+    <tabs>standard-Pricebook2</tabs>
+    <tabs>Print_Job__c</tabs>
+    <tabs>Printing_Press__c</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>Review__c</tabs>
+    <tabs>Store__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Volcano_Dragon_Publisher_UtilityBar</utilityBar>
+</CustomApplication>
