@@ -1,0 +1,19 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "volDragPublish",
+            "versionName": "ver trev 1.0",
+            "versionNumber": "1.0.0.NEXT"
+        }
+    ],
+    "name": "volcano dragon",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "volDragPublish": "0Ho8c000000fxXvCAI",
+        "volDragPublish@1.0.0-1": "04t8c000000xJ7EAAU"
+    }
+}
