@@ -1,0 +1,39 @@
+<template>
+    <div class="slds-grid slds-gutters">
+
+        <div class="slds-col slds-size_1-of-3">
+          <img src={cover} alt="Girl in a jacket" width="500" height="600">
+        </div>
+
+        <div class="slds-col slds-size_2-of-3">
+            <div class="slds-col">
+              <span>{title}</span>
+            </div>
+
+            <div class="slds-col">
+              <span>By {author}</span>
+            </div>
+
+            <div class="slds-col">
+              <span>Genres: </span>
+              <template for:each={genres} for:item="genre">
+                <lightning-badge label={genre}  key={genre} class="slds-badge_inverse"></lightning-badge>
+              </template>
+            </div>
+
+            <div class="slds-col">
+              <span>Year: {year} | ISBN: {isbn}</span>
+            </div>
+
+            <div class="slds-col">
+              <span>Synopsis</span>
+            </div>
+
+            <div class="slds-col">
+              <span>{synopsis}</span>
+            </div>
+        </div>
+        
+        
+      </div>
+</template>
