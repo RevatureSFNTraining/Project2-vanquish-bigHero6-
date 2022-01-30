@@ -1,0 +1,24 @@
+<template>
+    <div class="slds-grid slds-grid_vertical  slds-grid_vertical-align-center slds-grid_align-center">
+        <div class="slds-grid slds-grid_horizontal">
+            <div class="slds-col icon_image">
+                <svg xmlns="http://www.w3.org/2000/svg">;
+                    <use xlink:href={svgURL}></use>
+                </svg>
+                <h1>ERUPT AND BREATH BOOK</h1> 
+            </div>
+        </div>
+        <div class="navbar slds-border_bottom  slds-col">
+            <nav role="navigation" class="slds-align_absolute-center">
+               <ul class="slds-list_horizontal slds-has-dividers_right slds-has-block-links_space">
+                   <template for:each={menuItems} for:item="item">
+                       <li key={item.id} class="slds-item slds-text-heading_large">
+                           <c-navigation-menu-item item={item}></c-navigation-menu-item>
+                       </li>
+                   </template>
+               </ul>
+           </nav>
+        </div>
+    </div>
+    
+</template>
