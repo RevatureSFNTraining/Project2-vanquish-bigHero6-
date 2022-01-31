@@ -51,9 +51,9 @@ public class shipmentTriggerHelper {
 
         //if not we can just calulate the shipping costs based on the information provided
         } else {
-            for(Shipment__c ship : theList) {
-                thePressIDs.add(ship.Printing_Press__c);
-            }
+            for(Shipment__c sh : theList) {
+                thePressIDs.add(sh.Printing_Press__c);
+            } //above causes null pointer exception so below is not executed
             thePresses = new Map<ID, Printing_Press__c>([SELECT Id, Location__c FROM Printing_Press__c WHERE Id IN :thePressIDs]);
         }
 
