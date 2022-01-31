@@ -1,8 +1,39 @@
 <!-- lwcHelloWorld.html -->
 <template>
-    <lightning-card title="LWC Hello World" icon-name="custom:custom14">
-        <div class="slds-card__body slds-card__body_inner">
-            Hello, {name}!
+    <div>
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+                <span>About Volcano Dragon</span>
+                <p></p>
+                <br>
+                <a href={url} onclick={clickAboutUs}>About Us</a>
+                <br>
+                <a href={url} onclick={clickCareers}>Careers</a>
+                <br>
+                <a href={url} onclick={clickContactUs}>Contact Us</a>
+              </div>
+            <div class="slds-col">
+              <span>Resources</span>
+              <p></p>
+              <br>
+              <a href={url} onclick={clickPrivacyPolicy}>Privacy Policy</a>
+              <br>
+              <a href={url} onclick={clickTerms}>Terms of Service</a>
+              <br>                        
+            </div>
+            <div class="slds-col">
+              <span>Help</span>
+              <p></p>
+              <br>
+              <a href={url} onclick={clickFaq}>Frequently Asked Questions</a>
+              <br>
+              <a href={url} onclick={clickOrderBook}>How to Order a Book</a>
+              <br>
+              <a href={url} onclick={clickPublishBook}>How to Publish a Book</a>
+              <br>
+            </div>
         </div>
-    </lightning-card>
+        <br>
+        <p>Copyright &copy; 2022 Vanquish - Big Hero 6 Project 2</p>
+    </div>
 </template>
