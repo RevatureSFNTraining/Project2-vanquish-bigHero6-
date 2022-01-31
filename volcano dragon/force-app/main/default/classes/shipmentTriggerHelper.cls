@@ -22,7 +22,7 @@ public class shipmentTriggerHelper {
                 shipsThatNeedAPress.add(s);
             }
         }
-        List<ID> thePressIDs;
+        List<ID> thePressIDs = new List<ID>();
         Map<ID, Printing_Press__c> thePresses;
 
         //if so, we need to pull up the list of printing presses and we will find the closest
