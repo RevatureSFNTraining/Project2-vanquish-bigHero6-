@@ -12,7 +12,7 @@ import SHIPMENT_STORE_FIELD from '@salesforce/schema/Shipment__c.Store__c';
 import SHIPMENT_NAME_FIELD from '@salesforce/schema/Shipment__c.Name';
 
 export default class Orderformlwc extends LightningElement {
-    @api objectApiName;
+    @api objectApiName = 'Shipment__c';
 
     fields = [SHIPMENT_NAME_FIELD, 
         SHIPMENT_STORE_FIELD, 
