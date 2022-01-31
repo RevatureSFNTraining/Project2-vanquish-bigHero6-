@@ -1,0 +1,59 @@
+{
+  "appPageId" : "d151ce2e-322f-4828-9706-44d7742dfb12",
+  "componentName" : "community_layout:sldsFlexibleLayout",
+  "id" : "d244620f-23c5-4ed1-808d-6bac7ab3f530",
+  "label" : "Authors",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "backgroundImageConfig" : "",
+        "backgroundImageOverlay" : "rgba(0,0,0,0)",
+        "sectionConfig" : "{\"UUID\":\"fc4f9631-a2f9-4c61-8c6e-e7ca91db082b\",\"columns\":[{\"UUID\":\"294a87e5-9fb9-422f-9dd0-80e01293c24f\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}"
+      },
+      "componentName" : "community_layout:section",
+      "id" : "fc4f9631-a2f9-4c61-8c6e-e7ca91db082b",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : { },
+          "componentName" : "c:authorDetails",
+          "id" : "83cb26a0-26be-4897-a1e6-dee0cce275b5",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "294a87e5-9fb9-422f-9dd0-80e01293c24f",
+        "regionLabel" : "Column 1",
+        "regionName" : "col1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "scopedBrandingSetId" : null,
+      "type" : "component"
+    } ],
+    "id" : "faa47e25-7e0d-40a8-a144-776bf26cadac",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "pageTitle" : "Authors",
+        "recordId" : "{!recordId}"
+      },
+      "componentName" : "community_builder:seoAssistant",
+      "id" : "53d264fe-3860-4493-942b-47d039798039",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d9f241d5-73ed-44aa-86b5-5e814d4942a6",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-authors"
+}

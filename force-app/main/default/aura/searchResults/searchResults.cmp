@@ -1,0 +1,8 @@
+<aura:component controller="SearchResultsController" 
+    
+    implements="forceCommunity:availableForAllPageTypes" 
+    access="global">
+
+    <aura:handler name="init" value="{!this}" action="{!c.loadSearchResults}" />
+
+</aura:component>	

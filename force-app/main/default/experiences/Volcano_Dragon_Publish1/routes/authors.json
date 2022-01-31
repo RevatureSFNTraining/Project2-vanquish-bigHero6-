@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "d244620f-23c5-4ed1-808d-6bac7ab3f530",
+  "appPageId" : "d151ce2e-322f-4828-9706-44d7742dfb12",
+  "configurationTags" : [ ],
+  "id" : "d3cbccc4-d4a6-4917-aa29-5860baa1bcc5",
+  "label" : "Authors",
+  "routeType" : "custom-authors",
+  "type" : "route",
+  "urlPrefix" : "authors"
+}

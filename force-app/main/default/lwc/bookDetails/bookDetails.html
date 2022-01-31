@@ -1,39 +1,82 @@
 <template>
-    <div class="slds-grid slds-gutters">
+    <div class="slds-grid slds-gutters slds-p-bottom_large">
 
         <div class="slds-col slds-size_1-of-3">
-          <img src={cover} alt="Girl in a jacket" width="500" height="600">
+          <img src={cover} alt="Girl in a jacket" width="400" height="500">
         </div>
 
         <div class="slds-col slds-size_2-of-3">
-            <div class="slds-col">
-              <span>{title}</span>
+            <div class="slds-col slds-text-heading_large slds-p-bottom_medium">
+              <span>{book.Name}</span>
             </div>
 
-            <div class="slds-col">
-              <span>By {author}</span>
+            <div class="slds-col slds-text-heading_medium slds-p-bottom_medium">
+              <span>By {book.Author__c}</span>
             </div>
 
-            <div class="slds-col">
+            <div class="slds-col slds-text-heading_medium slds-p-bottom_medium">
               <span>Genres: </span>
               <template for:each={genres} for:item="genre">
                 <lightning-badge label={genre}  key={genre} class="slds-badge_inverse"></lightning-badge>
               </template>
             </div>
 
-            <div class="slds-col">
-              <span>Year: {year} | ISBN: {isbn}</span>
+            <div class="slds-col slds-p-bottom_medium">
+              <span>Year: {book.Year__c} | ISBN: {book.ISBN__c}</span>
+            </div>
+
+            <div class="slds-col slds-p-bottom_large">
+              <span class="bold-text">
+                Price: <lightning-formatted-number value={bookPrice} format-style="currency" currency-code="USD"></lightning-formatted-number>
+              </span>
             </div>
 
             <div class="slds-col">
-              <span>Synopsis</span>
+              <div class="slds-grid slds-grid_align-center">
+                <div class="slds-col">
+                  <lightning-button variant="brand" label="Add to cart" title="Add to cart" onclick={handleClick}></lightning-button>
+                </div>
+              </div>
             </div>
 
-            <div class="slds-col">
-              <span>{synopsis}</span>
-            </div>
+            
         </div>
         
         
+    </div>
+
+    <div class="slds-grid slds-gutters">
+
+      <div class="slds-col slds-size_2-of-3">
+        <hr class="slds-m-horizontal_large">
+        <lightning-accordion class="example-accordion"
+                           onsectiontoggle={handleToggleSection}
+                           active-section-name={accordianSection}
+                           allow-multiple-sections-open>
+          <lightning-accordion-section name="A" label={bookAccordionTitle}>
+            <p>
+              <lightning-formatted-text value={book.Description} linkify ></lightning-formatted-text>
+            </p>
+          </lightning-accordion-section>
+        </lightning-accordion>
       </div>
+
+      <div class="slds-col slds-size_1-of-3">
+        <hr class="slds-m-horizontal_large">
+        <lightning-accordion class="example-accordion"
+                           onsectiontoggle={handleToggleSection}
+                           active-section-name={accordianSection}
+                           allow-multiple-sections-open>
+          <lightning-accordion-section name="A" label={authorAccordionTitle}>
+            <p>
+              <lightning-formatted-text value={author.Description} linkify ></lightning-formatted-text>
+            </p>
+          </lightning-accordion-section>
+        </lightning-accordion>
+      </div>
+
+    </div>
+
+      
+  
 </template>

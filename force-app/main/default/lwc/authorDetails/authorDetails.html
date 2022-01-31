@@ -1,0 +1,52 @@
+<template>
+    <lightning-button
+            variant="brand"
+            label="Items"       
+            icon-name="utility:cart"
+            icon-position="left"
+            onclick={handleClick}
+            value = 0;
+        >
+        </lightning-button>
+    <div class="slds-grid slds-gutters slds-p-bottom_large">
+
+        <div class="slds-col slds-size_1-of-3">
+            <img src={cover} alt="Girl in a jacket" width="400" height="500">
+        </div>
+
+        <div class="slds-col slds-size_2-of-3">
+
+            <div class="slds-col slds-text-heading_large slds-p-bottom_large">
+                <span>{author.Name}</span>
+            </div>
+
+            <div class="slds-col slds-p-bottom_small bold-text">
+                <hr>
+                <span>About the Author</span>
+            </div>
+
+            <div class="slds-col">
+                <lightning-formatted-text value={author.Description} linkify ></lightning-formatted-text>
+                <hr>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="slds-p-bottom_large bold-text">
+        <hr>
+        <span>BOOKS BY {author.Name}</span>
+    </div>
+
+    <div class="slds-grid slds-wrap">
+        <template for:each={books} for:item="book">
+            <div class="slds-col slds-p-horizontal_large slds-size_2-of-12" key={book}>
+                <div class="slds-p-bottom_large">
+                    <img src={cover} alt="Girl in a jacket" width="400" height="500">
+                </div>
+                <a href={bookUrl} class="bold-text">{book.Name}</a>
+            </div>
+        </template>
+    </div>
+</template>

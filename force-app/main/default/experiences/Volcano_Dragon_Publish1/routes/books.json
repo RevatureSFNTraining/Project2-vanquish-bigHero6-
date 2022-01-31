@@ -1,0 +1,10 @@
+{
+  "activeViewId" : "301ec33e-1c3b-4249-b7f3-8135fbe7818f",
+  "appPageId" : "d151ce2e-322f-4828-9706-44d7742dfb12",
+  "configurationTags" : [ ],
+  "id" : "86faf674-c692-46a8-a90b-01e9aecfaad9",
+  "label" : "Books",
+  "routeType" : "custom-books",
+  "type" : "route",
+  "urlPrefix" : "books"
+}
