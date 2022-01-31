@@ -35,7 +35,6 @@ public static void addPressAndCalculate() {
     insert pp;
     Shipment__c sh = new Shipment__c(Name='test shipment', Quantity__c=1, 
         Store__c = [SELECT Id FROM Store__c WHERE Name = 'test store' LIMIT 1].Id 
-        //Printing_Press__c = [SELECT Id FROM Printing_Press__c WHERE Name = 'test press' LIMIT 1].Id);
     );
     insert sh;
     sh = [SELECT Id, Shipping_Cost__c FROM Shipment__c WHERE Name = 'test shipment' LIMIT 1];
@@ -55,10 +54,10 @@ public static void addPressFindClosestAndCalculate() {
     Printing_Press__c pp = new Printing_Press__c(Name='test press', Location__Latitude__s = 10.50, Location__Longitude__s = 10.50);
     Printing_Press__c zz = new Printing_Press__c(Name='test press', Location__Latitude__s = 11.00, Location__Longitude__s = 11.00);
     insert s;
+    insert zz;
     insert pp;
     Shipment__c sh = new Shipment__c(Name='test shipment', Quantity__c=1, 
         Store__c = [SELECT Id FROM Store__c WHERE Name = 'test store' LIMIT 1].Id 
-        //Printing_Press__c = [SELECT Id FROM Printing_Press__c WHERE Name = 'test press' LIMIT 1].Id);
     );
     insert sh;
     sh = [SELECT Id, Shipping_Cost__c FROM Shipment__c WHERE Name = 'test shipment' LIMIT 1];
@@ -78,13 +77,14 @@ public static void addAThousandOrders() {
     Printing_Press__c pp = new Printing_Press__c(Name='test press', Location__Latitude__s = 10.50, Location__Longitude__s = 10.50);
     Printing_Press__c zz = new Printing_Press__c(Name='test press', Location__Latitude__s = 11.00, Location__Longitude__s = 11.00);
     insert s;
+    insert zz;
     insert pp;
     List<Shipment__c> shs = new List<Shipment__c>();
     s = [SELECT Id FROM Store__c WHERE Name = 'test store' LIMIT 1];
+    ///how many rescords should I be able to insert at once ????
     for(Integer i = 0; i<1000; i++) {
         Shipment__c sh = new Shipment__c(Name='test shipment ' + i, Quantity__c=i, 
             Store__c = s.Id        
-            //Printing_Press__c = [SELECT Id FROM Printing_Press__c WHERE Name = 'test press' LIMIT 1].Id);
             );
         shs.add(sh);
     }
