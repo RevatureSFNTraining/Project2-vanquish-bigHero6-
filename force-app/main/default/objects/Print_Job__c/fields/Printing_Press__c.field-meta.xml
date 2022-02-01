@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Printing_Press__c</fullName>
+    <externalId>false</externalId>
+    <label>Printing Press</label>
+    <referenceTo>Printing_Press__c</referenceTo>
+    <relationshipLabel>Print Jobs</relationshipLabel>
+    <relationshipName>Print_Jobs</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
