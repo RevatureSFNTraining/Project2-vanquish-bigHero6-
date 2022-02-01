@@ -1,3 +1,7 @@
+/**
+ * Tests of the ProductTriggerHelper class.
+ * @author Alonso del Arte
+ */
 @isTest
 public class ProductTriggerHelperTest {
     
@@ -34,13 +38,15 @@ public class ProductTriggerHelperTest {
     
     @isTest
     public static void testCleanUpOrphanedReviews() {
-        Product2 book = new Product2(name = 'Cloud Atlas', 
-                                     author__c = 'David Mitchell', 
-                                     genre__c = 'Other', ISBN__c = 9780375507250L, 
+        Product2 book = new Product2(name = 'Hemlock', 
+                                     author__c = 'Bernardo Gerhardt', 
+                                     genre__c = 'Other', ISBN__c = 9785550321772379L, 
                                      year__c = Date.today());
-        String reviewText = 'Meh.';
-        // TODO: Create Review__c instance associated to Product2 instance
-        // TODO: Delete Product2 instance
+        insert book;
+        String reviewText = 'This book needs to be pulled for a rewrite.';
+        Review__c review = new Review__c(book__c = book.Id, content__c = reviewText);
+        insert review;
+        delete book;
         // TODO: Ascertain Review__c instance has been deleted
         System.assert(false);
     }

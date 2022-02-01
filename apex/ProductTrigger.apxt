@@ -1,6 +1,9 @@
+/**
+ * Trigger for the Product2 class, which we're using to represent books.
+ * @author Alonso del Arte
+ */
 trigger ProductTrigger on Product2 (before insert, before update, before delete) {
     
-    // TODO: Write tests for this
     switch on Trigger.operationType {
         when BEFORE_INSERT, BEFORE_UPDATE {
             ProductTriggerHelper.ensureCheckDigitChecksOut(Trigger.new);
