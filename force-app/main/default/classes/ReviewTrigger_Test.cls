@@ -16,7 +16,10 @@ public class ReviewTrigger_Test {
         for(Integer i=0; i<5; i++) {
             testReviews.add(new Review__c(Name = 'TestReview ' + i, Reviewer__c = testContacts[0].Id));
         }
-        insert testReviews;        
+        insert testReviews; 
+        
+        Contact anonymousContact = new Contact(FirstName = 'ANONYMOUS ', LastName = 'REVIEWER');
+        insert anonymousContact;
     }
     
     // Tests if deleting and undeleting Reviews will update field Reviewer__c to ANONYMOUS REVIEWER  

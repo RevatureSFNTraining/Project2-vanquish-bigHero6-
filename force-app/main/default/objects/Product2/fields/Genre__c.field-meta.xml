@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Genre__c</fullName>
-    <deprecated>false</deprecated>
     <externalId>false</externalId>
     <label>Genre</label>
     <required>true</required>
@@ -40,6 +39,54 @@
                 <fullName>Other</fullName>
                 <default>false</default>
                 <label>Other</label>
+            </value>
+            <value>
+                <fullName>Adventure</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Adventure</label>
+            </value>
+            <value>
+                <fullName>Fantasy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fantasy</label>
+            </value>
+            <value>
+                <fullName>Historical fiction</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Historical fiction</label>
+            </value>
+            <value>
+                <fullName>Mystery</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mystery</label>
+            </value>
+            <value>
+                <fullName>Romance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Romance</label>
+            </value>
+            <value>
+                <fullName>Science fiction</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Science fiction</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Western</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Western</label>
             </value>
         </valueSetDefinition>
     </valueSet>

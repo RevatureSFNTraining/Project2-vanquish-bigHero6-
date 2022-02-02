@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Printing_Press__c</fullName>
-    <deprecated>false</deprecated>
     <externalId>false</externalId>
     <label>Printing Press</label>
     <referenceTo>Printing_Press__c</referenceTo>

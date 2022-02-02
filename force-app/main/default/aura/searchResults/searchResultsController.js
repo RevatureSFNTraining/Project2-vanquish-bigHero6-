@@ -1,16 +1,19 @@
 ({
-    myAction : function(component, event, helper) {
+    doInit : function(component, event, helper) {
 
-    },
-
-    loadSearchResults: function (component, event, helper) {
-        var action = component.get("c.getSearchResults");
-        action.setCallback(this, function(response){
+        var action=component.get("c.searchForString");
+        console.log('Action set');
+        action.setParams({searchText:'Carre'});
+        action.setCallback(this, function(response) {
             var state = response.getState();
-            if(state == 'SUCCESS') {
-                console.log(response);
+            if (state === "SUCCESS") {
+
+                var resp = response.getReturnValue();
+                component.set("v.responseObject",resp);
+                console.log(resp);
             }
-        }, 'Carré');
-        $A.enqueueAction(action);
+        });
+      $A.enqueueAction(action);
+
     }
 })

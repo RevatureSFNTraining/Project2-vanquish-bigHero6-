@@ -5,20 +5,23 @@ import getBookAuthor from '@salesforce/apex/Product2Controller.getBookAuthor';
 
 export default class BookDetails extends LightningElement {
 
-    cover = "https://images1.penguinrandomhouse.com/cover/9780143134206";
     @track genres = [];
 
-    currentPageReference = null; 
-    urlStateParameters = null;
+    @api currentPageReference = null; 
+    @api urlStateParameters = null;
 
-    urlId = null;
+    @api urlId = null;
     @track book = {};
     @track author = {};
-    error = null;
+    @track error = null;
+
+    @api authorUrl = null;
+
 
     @wire(CurrentPageReference)
     getStateParameters(currentPageReference) {
        if (currentPageReference) {
+            
           this.urlStateParameters = currentPageReference.state;
           this.urlId = this.urlStateParameters.id || null;
 
@@ -26,19 +29,21 @@ export default class BookDetails extends LightningElement {
 
           getBookById({bookId : this.urlId})
             .then(result => {
-                console.log(result);
                 this.book = result;
 
                 let genreString = this.book.Genre__c.toString();
                 this.genres = genreString.split(';');
 
-                console.log(this.book.Author__c);
-
                 getBookAuthor({authorName : this.book.Author__c})
                     .then(data => {
-                        console.log('entro');
+                        
                         console.log(data);
                         this.author = data;
+
+                        let urlString = window.location.href;
+                        let baseURL = urlString.substring(0, urlString.indexOf("/s"));
+                        this.authorUrl = baseURL + '/s/author-details?id=' + this.author.Id;
+                        console.log(this.authorUrl);
                     })
                     .catch(error => {
                         this.error = error;
@@ -47,6 +52,7 @@ export default class BookDetails extends LightningElement {
             })
             .catch(error => {
                 this.error = error;
+                console.log(error);
             });
 
             
@@ -58,9 +64,14 @@ export default class BookDetails extends LightningElement {
    
     }
 
-    get bookPrice() {
-        return this.book.PricebookEntries[0].UnitPrice;
+    
+    @api get bookPrice() {
+        if(this.book.PricebookEntries == null)
+            return 0;
+        else
+            return this.book.PricebookEntries[0].UnitPrice;
     }
+    
 
     accordionTitle(title) {
         return 'About ' + title;

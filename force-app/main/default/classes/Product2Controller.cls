@@ -5,7 +5,7 @@ global without sharing class Product2Controller {
 
     @AuraEnabled(cacheable=true)
     global static Product2 getBookById(String bookId){
-        Product2 book = [ SELECT Id, Name, Author__c, Genre__c, Year__c, ISBN__c, Description, 
+        Product2 book = [ SELECT Id, Name, Author__c, Genre__c, Year__c, ISBN__c, Description, DisplayUrl,
         (SELECT UnitPrice FROM PricebookEntries)
         FROM Product2 WHERE Id = :bookId LIMIT 1 ];
         return book;
@@ -13,7 +13,7 @@ global without sharing class Product2Controller {
 
     @AuraEnabled(cacheable=true)
     global static List<Product2> getBooksByAuthor(String authorName){
-        List<Product2> books = [ SELECT Id, Name, Author__c, Genre__c, Year__c, ISBN__c, Description, 
+        List<Product2> books = [ SELECT Id, Name, Author__c, Genre__c, Year__c, ISBN__c, Description, DisplayUrl, 
         (SELECT UnitPrice FROM PricebookEntries)
         FROM Product2 WHERE Author__c = :authorName ];
 

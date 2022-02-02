@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Status__c</fullName>
-    <deprecated>false</deprecated>
     <description>The 6 statuses of what a Book project goes through</description>
     <externalId>false</externalId>
     <label>Status</label>
