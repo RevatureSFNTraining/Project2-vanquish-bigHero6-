@@ -1,0 +1,12 @@
+<template> 
+    <div onkeyup={handleKeyUp}>
+        <lightning-input
+            name="enter-search"
+            label="0"
+            type="search"
+        ></lightning-input>
+    </div>
+    <p if:true={queryTerm}>
+        Searched for {queryTerm}!
+    </p>
+</template>
