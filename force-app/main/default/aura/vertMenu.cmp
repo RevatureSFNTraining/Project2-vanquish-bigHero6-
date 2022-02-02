@@ -1,0 +1,4 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+	    <lightning:navigation aura:id="navService"/> 
+    <c:vertNavMenu navigateToAboutUs="{! c.goToAbout_us}" navigateToCareers="{! c.goToCareers}" navigateToContactUs="{! c.goToContact_Us}" navigateToPrivacy="{! c.goToPrivacy }" navigateToTermsOfService="{! c.goToTermsOfService }" />
+</aura:component>
