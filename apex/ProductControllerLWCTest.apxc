@@ -1,0 +1,23 @@
+/**
+ * Tests of the ProductControllerLWC class.
+ * @author Alonso del Arte
+ */
+@isTest
+public class ProductControllerLWCTest {
+    
+    @isTest
+    public static void testQueryBook() {
+        long isbn = 9780596803735L;
+        String title = 'Java: The Good Parts';
+        String author = 'Jim Waldo';
+        Product2 book = new Product2(Name = title, Author__c = author, 
+                                     ISBN__c = isbn, Year__c = Date.today());
+        insert book;
+        List<Product2> books = ProductControllerLWC.queryBook(isbn);
+        System.assertEquals(1, books.size());
+        Product2 retrieved = books.get(0);
+        System.assertEquals(title, retrieved.Name);
+        System.assertEquals(author, retrieved.Author__c);
+    }
+
+}

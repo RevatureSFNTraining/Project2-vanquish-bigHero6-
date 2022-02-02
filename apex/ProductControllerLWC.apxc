@@ -1,0 +1,15 @@
+/**
+ * Controller for the Product2 class, which we're using to represent books.
+ * @author Alonso del Arte
+ */
+public with sharing class ProductControllerLWC {
+    
+    // TODO: Write test for this
+    @AuraEnabled(cacheable = true)
+    public static List<Product2> queryBook(long isbn) {
+        return [SELECT Name, Author__c, Genre__c, Year__c
+               FROM Product2
+               WHERE ISBN__c = :isbn];
+    }
+
+}
