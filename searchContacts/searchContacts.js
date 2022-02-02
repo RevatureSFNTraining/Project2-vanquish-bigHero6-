@@ -21,7 +21,7 @@ export default class SearchContacts extends LightningElement {
         })
     }
     cols = [
-        { label:'Contact Name', fieldName:'Name', type:'text' },
+        { label:'Contact Name', fieldName:'LastName', type:'text' },
         { label:'Phone', fieldName:'Phone', type:'phone' },
         { label:'Email', fieldName:'Email', type:'email' }
     ]
