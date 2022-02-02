@@ -6,6 +6,8 @@ export default class NavToHome extends NavigationMixin(LightningElement) {
     @api navigateToAboutUs;
     @api navigateToCareers;
     @api navigateToContactUs;
+    @api navigateToPrivacy;
+    @api navigateToTermsOfService;
          
        //{
         // Use the built-in 'Navigate' method
