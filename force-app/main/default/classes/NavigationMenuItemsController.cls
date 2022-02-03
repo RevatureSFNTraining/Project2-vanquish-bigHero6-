@@ -1,7 +1,7 @@
 /**
  * A basic controller for fetching NavigationMenuItems.
  */
-global with sharing class NavigationMenuItemsController {
+global class NavigationMenuItemsController {
     public NavigationMenuItemsController() {}
 
     /**

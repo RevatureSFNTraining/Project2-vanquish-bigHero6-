@@ -62,7 +62,7 @@ export default class HorizontalNavMenu extends LightningElement {
             }).filter(item => {
                 // Only show "Public" items if guest user
                 return item.accessRestriction === "None"
-                        || (item.accessRestriction === "LoginRequired" && !isGuestUser);
+                        || (item.accessRestriction === "LoginRequired" && !isGuestUser) || isGuestUser;
             });
             this.error = undefined;
             this.isLoaded = true;

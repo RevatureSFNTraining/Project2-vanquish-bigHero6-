@@ -1,6 +1,6 @@
 import { LightningElement,api } from 'lwc';
 
-export default class LwcHelloWorldTest extends LightningElement {
+export default class footerLWC extends LightningElement {
     @api url;
     @api clickAboutUs;
     @api clickCareers;

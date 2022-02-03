@@ -1,0 +1,39 @@
+<template>
+
+    <div class="slds-grid slds-grid_align-center">
+
+        <div class="slds-col">
+            <h1>
+                AUTHORS WELCOME!
+            </h1>
+            <br>
+            <p>Enter your proposed book project with the following information:</p>
+            <br>
+            <p>&#9656; Select your Account</p>
+            <p>&#9656; Enter a Book Project Name</p>
+            <p>&#9656; Either upload your manuscript as a doc file or paste </p>
+            <br>
+        </div>
+    </div>
+
+    <lightning-record-edit-form
+        object-api-name={objectApiName} onsuccess={handleSuccess}
+    >
+        <lightning-input-field field-name="Account__c"></lightning-input-field>
+        <lightning-input-field field-name="Name"></lightning-input-field>
+        <lightning-input-field field-name="Content__c"></lightning-input-field>
+        <div class="slds-m-top_medium">
+            <lightning-button
+                class="slds-m-top_small"
+                label="Cancel"
+                onclick={handleReset}
+            ></lightning-button>
+            <lightning-button
+                class="slds-m-top_small"
+                type="submit"
+                label="Submit Book Project"
+            ></lightning-button>
+        </div> 
+    </lightning-record-edit-form
+
+></template>
