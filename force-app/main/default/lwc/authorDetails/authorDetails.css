@@ -1,0 +1,20 @@
+.bold-text {
+    font-weight: bold;
+}
+
+.normal-text-size {
+    font-size: medium;
+}
+
+.large-text-size {
+    font-size: large;
+}
+
+.book-link {
+    cursor: pointer;
+}
+
+.book-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

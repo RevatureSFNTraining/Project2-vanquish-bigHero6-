@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_not_empty</fullName>
+    <active>true</active>
+    <errorConditionFormula>LEN(Content__c) &lt;=0 || ISBLANK(Content__c)</errorConditionFormula>
+    <errorMessage>Content should not be empty. Either upload a file or paste your text onto the provided field</errorMessage>
+</ValidationRule>

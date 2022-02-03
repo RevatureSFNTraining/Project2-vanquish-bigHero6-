@@ -1,0 +1,15 @@
+.THIS {
+
+}
+
+.THIS .bold-text {
+    font-weight: bold;
+}
+
+.THIS .normal-text-size {
+    font-size: medium;
+}
+
+.THIS .large-text-size {
+    font-size: large;
+}

@@ -1,0 +1,4 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+    <lightning:navigation aura:id="navService"/>
+    <c:footerLWC clickAboutUs="{!c.gotoAboutUs}" clickPrivacyPolicy="{!c.gotoPrivacyPolicy}" clickCareers="{!c.gotoCareers}" clickContactUs="{!c.gotoContactUs}" clickTerms="{!c.gotoTerms}" clickFaq="{!c.gotoFaq}" clickOrderBook="{!c.gotoOrder}" clickPublishBook="{!c.gotoPublish}"/>
+</aura:component>

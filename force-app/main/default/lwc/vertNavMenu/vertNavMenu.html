@@ -1,0 +1,39 @@
+<template>
+    
+    <div style="width: 320px;">
+        <lightning-vertical-navigation>
+            <lightning-vertical-navigation-section>
+                <lightning-vertical-navigation-item 
+                label="About Us"
+                onclick={navigateToAboutUs}
+                >
+                </lightning-vertical-navigation-item>
+                
+                <lightning-vertical-navigation-item 
+                label="Careers" 
+                onclick={navigateToCareers}
+                >
+                </lightning-vertical-navigation-item>
+                
+                <lightning-vertical-navigation-item 
+                label="Contact Us" 
+                onclick={navigateToContactUs}
+                >
+                </lightning-vertical-navigation-item>
+               
+                <lightning-vertical-navigation-item 
+                label="Privacy Policy" 
+                onclick={navigateToPrivacy}
+                >       
+                </lightning-vertical-navigation-item>
+                
+                <lightning-vertical-navigation-item 
+                label="Terms of Service" 
+                onclick={navigateToTermsOfService}
+                >       
+                </lightning-vertical-navigation-item>
+               
+            </lightning-vertical-navigation-section>
+        </lightning-vertical-navigation>
+    </div>
+</template>
