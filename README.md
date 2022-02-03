@@ -1,6 +1,8 @@
 # Project2-vanquish-bigHero6-
 
-The business chosen was a Book Publisher
+The business chosen was a Book Publisher/Book Seller
+
+The Experience Cloud Website has inspiration/parts modeled from www.penguin.com
 
 Project 2
 Creating an LWC/Aura Experience Cloud site & imperative business solutions.
