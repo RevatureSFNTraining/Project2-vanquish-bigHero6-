@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Book details" icon-name="standard:contact">
+        <template if:true={record}>
+            <div class="slds-m-around_medium">
+                <h1><i>{title}</i></h1>
+                <h2>by {author}</h2>
+                <p>Book blurb goes here</p>
+                <p>Genre: {genre}</p>
+                <p>ISBN: {isbn}</p>
+            </div>
+        </template>
+
+    </lightning-card>
+</template>

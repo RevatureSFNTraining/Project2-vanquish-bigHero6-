@@ -1,0 +1,9 @@
+<aura:component controller="bookCardCarouselController">
+    <aura:attribute name="recordId" type="Product2" />
+    <aura:attribute name="books" type="List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <aura:iteration items="{v.books}" var="book">
+        <c:bookDetails recordId="{!book.Id}"></c:bookDetails>
+    </aura:iteration>
+</aura:component>	
