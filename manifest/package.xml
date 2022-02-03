@@ -50,9 +50,9 @@
         <members>Inventory_Line__c</members>
         <members>Print_Job__c</members>
         <members>Inventory__c</members>
-        <members>Inventory_Line__c</members>
         <members>Printing_Press__c</members>
         <members>Review__c</members>
+        <members>Shipment__c</members>
         <name>CustomObject</name>
     </types>
     <version>52.0</version>
