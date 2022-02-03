@@ -11,7 +11,7 @@
                 <span>{author.Name}</span>
             </div>
 
-            <div class="slds-col slds-p-bottom_small bold-text normal-text-size">
+            <div class="slds-col slds-p-bottom_small bold-text large-text-size">
                 <hr>
                 <span>About the Author</span>
             </div>
@@ -25,7 +25,7 @@
 
     </div>
 
-    <div class="slds-p-bottom_large bold-text normal-text-size">
+    <div class="slds-p-bottom_large bold-text large-text-size">
         <hr>
         <span>BOOKS BY {author.Name}</span>
     </div>
@@ -36,7 +36,10 @@
                 <div class="slds-p-bottom_large">
                     <img src={book.DisplayUrl} alt="No image" width="400" height="500">
                 </div>
-                <a href="" class="bold-text normal-text-size book-link" onclick={handleClickBook} data-target-id={book.Id}>{book.Name}</a>
+                <div>
+                    <span class="bold-text normal-text-size book-link" onclick={handleClickBook} data-target-id={book.Id}>{book.Name}</span>
+                </div>
+                
             </div>
         </template>
     </div>

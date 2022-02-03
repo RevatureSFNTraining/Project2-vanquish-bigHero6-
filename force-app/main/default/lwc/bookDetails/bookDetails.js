@@ -18,6 +18,7 @@ export default class BookDetails extends LightningElement {
     @api authorUrl = null;
 
 
+    // Executes when page is loaded.
     @wire(CurrentPageReference)
     getStateParameters(currentPageReference) {
        if (currentPageReference) {
@@ -64,21 +65,17 @@ export default class BookDetails extends LightningElement {
    
     }
 
-    
+    // Gets price of book from PricebookEntries.
     @api get bookPrice() {
         if(this.book.PricebookEntries == null)
             return 0;
         else
             return this.book.PricebookEntries[0].UnitPrice;
     }
-    
-
-    accordionTitle(title) {
-        return 'About ' + title;
-    }
 
     accordianSection = '';
 
+    // Handles event when user clicks on accordion.
     handleToggleSection(event) {
           if(this.accordianSection.length === 0){
             this.accordianSection =''

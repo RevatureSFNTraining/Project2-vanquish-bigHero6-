@@ -11,5 +11,10 @@
 }
 
 .book-link {
-    
+    cursor: pointer;
+}
+
+.book-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }

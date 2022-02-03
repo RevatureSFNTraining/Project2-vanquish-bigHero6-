@@ -9,23 +9,26 @@ export default class AuthorDetails extends LightningElement {
 
     urlId = null;
     @track books = [];
-    @api book = {};
+    //@api book = {};
     @track author = {};
     error = null;
 
-    handleClick(event) {
+    // Handle click book event and redirects to page containing book's information.
+    handleClickBook(event) {
         let targetId = event.target.dataset.targetId;
-        let target = this.template.querySelector(`[data-id="${targetId}"]`);
-        target.scrollIntoView();
+        let target = this.template.querySelector(`[data-target-id="${targetId}"]`);
+
+        let urlString = window.location.href;
+        let bookUrl = urlString.substring(0, urlString.indexOf("/s")) + '/s/book-details?id=' + targetId;
+        window.open(bookUrl);
     }
 
+    // Executes when page loads.
     @wire(CurrentPageReference)
     getStateParameters(currentPageReference) {
        if (currentPageReference) {
           this.urlStateParameters = currentPageReference.state;
           this.urlId = this.urlStateParameters.id || null;
-
-            
 
           getAuthorById({authorId : this.urlId})
             .then(result => {
@@ -53,10 +56,6 @@ export default class AuthorDetails extends LightningElement {
 
             
        }
-    }
-
-    get bookUrlWithId() {
-        return this.bookUrl;
     }
    
 }
