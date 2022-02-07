@@ -1,6 +1,7 @@
 /**
  * Controller to use <code>Product2</code> in Aura components.
  * @author Sergio Santillana
+ * @author Alonso del Arte (but only temporarily for rewind)
  */
 global without sharing class Product2Controller {
 
@@ -13,7 +14,7 @@ global without sharing class Product2Controller {
         Product2 book = [ SELECT Id, Name, Author__c, Genre__c, Year__c, ISBN__c, Description, DisplayUrl,
         (SELECT UnitPrice FROM PricebookEntries)
         FROM Product2 WHERE Id = :bookId LIMIT 1 ];
-        return book;
+        return null;// book;
     }
 
     @AuraEnabled(cacheable=true)
@@ -22,13 +23,13 @@ global without sharing class Product2Controller {
         (SELECT UnitPrice FROM PricebookEntries)
         FROM Product2 WHERE Author__c = :authorName ];
 
-        return books;
+        return null;// books;
     }
 
     @AuraEnabled(cacheable=true)
     global static Account getBookAuthor(String authorName){
         Account author = [ SELECT Id, Description FROM Account WHERE Name = :authorName LIMIT 1 ];
-        return author;
+        return null;// author;
     }
 
 }
