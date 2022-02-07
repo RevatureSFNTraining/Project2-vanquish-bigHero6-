@@ -6,7 +6,11 @@ public with sharing class Product2ControllerTest {
 
     @isTest
     public void testBookAuthor() {
-        System.assert(false);
+        String authorName = 'Joanna Q. Public';
+        Account expected = new Account(name = authorName);
+        insert expected;
+        Account actual = Product2Controller.getBookAuthor(authorName);
+        System.assertEquals(expected, actual);
     }
 
 
