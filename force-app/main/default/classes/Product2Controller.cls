@@ -1,6 +1,11 @@
+/**
+ * Controller to use <code>Product2</code> in Aura components.
+ * @author Sergio Santillana
+ */
 global without sharing class Product2Controller {
-    public Product2Controller() {
 
+    public Product2Controller() {
+        // TODO: Determine if this constructor is needed
     }
 
     @AuraEnabled(cacheable=true)
@@ -25,4 +30,5 @@ global without sharing class Product2Controller {
         Account author = [ SELECT Id, Description FROM Account WHERE Name = :authorName LIMIT 1 ];
         return author;
     }
+
 }
