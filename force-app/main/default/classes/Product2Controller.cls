@@ -23,7 +23,7 @@ global without sharing class Product2Controller {
         (SELECT UnitPrice FROM PricebookEntries)
         FROM Product2 WHERE Author__c = :authorName ];
 
-        return null;// books;
+        return new List<Product2>();// books;
     }
 
     @AuraEnabled(cacheable=true)
